@@ -1,6 +1,6 @@
 import socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.bind(("", 5005))
+server_socket.bind(("", 22))
 server_socket.listen(5)
 import os
 
