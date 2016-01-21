@@ -1,6 +1,7 @@
 import socket
+from PIL import Image
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.bind(("", 22))
+server_socket.bind(("", 5005))
 server_socket.listen(5)
 import os
 
@@ -15,7 +16,8 @@ while (1):
         print "The following data was received - ",data
         print "Opening file - ",data
         fp = open(data,'r')
-        strng = fp.read()
+ #       strng = fp.read()
+        strng = "ok"
         size = os.path.getsize(data)
         size = str(size)
         client_socket.send(size)
@@ -31,8 +33,11 @@ while (1):
             strng = img.readline(512)
             if not strng:
                 break
+            print strng
             client_socket.send(strng)
         img.close()
+        # im = Image.open(data)
+        # im.save("logo", "JPEG")
         print "Data sent successfully"
         exit()
         #data = 'viewnior '+data

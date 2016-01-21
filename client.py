@@ -1,6 +1,6 @@
 import socket,os
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(("112.137.130.32", 22))
+client_socket.connect(("112.137.130.32", 5005))
 k = ' '
 size = 1024
 
@@ -31,6 +31,7 @@ while(1):
             strng = client_socket.recv(512)
             if not strng:
                 break
+            print 1
             fp.write(strng)
         fp.close()
         print "Data Received successfully"

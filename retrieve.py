@@ -1,0 +1,2 @@
+import os
+os.system('retrieve brand.idx retrieve_image.txt 6 /Users/vula/Desktop/vula_study/trademark_server /Users/vula/Desktop/vula_study/trademark_server -t /Users/vula/Desktop/vula_study/trademark_server/trace.txt')
