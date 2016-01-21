@@ -1,6 +1,6 @@
 import socket,os
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(("112.137.130.32", 5005))
+client_socket.connect(('112.137.130.32', 12055))
 k = ' '
 size = 1024
 
