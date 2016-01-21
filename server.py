@@ -1,5 +1,5 @@
 import socket
-from PIL import Image
+#from PIL import Image
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind(("", 5005))
 server_socket.listen(5)
