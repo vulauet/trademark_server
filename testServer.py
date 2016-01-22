@@ -1,5 +1,7 @@
 import SocketServer
 import os
+from datetime import datetime
+
 
 class MyTCPServer(SocketServer.ThreadingTCPServer):
 	allow_reuse_address = True
@@ -9,17 +11,22 @@ class MyTCPServerHandler(SocketServer.BaseRequestHandler):
 		try:
 			# inp = self.request.recv(1024).strip()
 			
-			fname = "logo.jpg"
+			timeStamp = str(datetime.now().microsecond)
+			annotation = timeStamp + ".txt"
+			fname =  timeStamp + ".jpg"
 			fp = open(fname, 'w')
 			while True:
 				strng = self.request.recv(512)
-				if not strng:
-					break
 				fp.write(strng)
+				if len(strng)<512:
+					break
+				
 			fp.close()
-			# im = Image.open(fname)
-			# im.save("logo", "JPEG")
-			self.request.sendall("Received")
+			annotate = open(annotation, 'w')
+			annotate.write(fname)
+			annotate.close()
+			os.system("extract " + annotation + " 6 . .")
+			self.request.sendall("Received\n")
 		except Exception, e:
 			print "[e] Excetion while receiving message: ", e
 
