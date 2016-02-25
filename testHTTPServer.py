@@ -21,7 +21,7 @@ class myHandler(BaseHTTPRequestHandler):
 		return
 
 	def do_POST(self):
-		if self.path == '/trademark':
+		if self.path == '/trademark.jpg':
 			length = self.end_headers['content-length']
 			data = self.rfile.read(int(length))
 
