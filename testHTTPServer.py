@@ -28,7 +28,8 @@ class myHandler(BaseHTTPRequestHandler):
 	            environ={'REQUEST_METHOD':'POST', 'CONTENT_TYPE':self.headers['Content-Type'],})
         	filename = form['file'].filename
         	data = form['file'].file.read()
-			open(self.trademark_path, "wb").write(data)
+			with open(self.trademark_path, "wb") as fh:
+				fh.write(data)
 			self.send_response(200)
 		return
 
