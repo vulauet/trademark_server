@@ -1,5 +1,7 @@
 #!/usr/bin/python
 from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
+from os import curdir
+from os.path import join as pjoin
 
 PORT_NUMBER = 12055
 
