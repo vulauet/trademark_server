@@ -3,6 +3,7 @@ from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
 from os import curdir
 from os.path import join as pjoin
 from datetime import datetime
+import cgi
 
 PORT_NUMBER = 12055
 
@@ -27,8 +28,8 @@ class myHandler(BaseHTTPRequestHandler):
 				headers=self.headers,
 				environ={'REQUEST_METHOD':'POST', 'CONTENT_TYPE':self.headers['Content-Type'],})
 			filename = form['file'].filename
-        	data = form['file'].file.read()
-        	with open(self.trademark_path, "wb") as fh:
+	        	data = form['file'].file.read()
+        		with open(self.trademark_path, "wb") as fh:
 				fh.write(data)
 			self.send_response(200)
 		return
