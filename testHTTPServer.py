@@ -16,6 +16,9 @@ class myHandler(BaseHTTPRequestHandler):
 		self.wfile.write("Hello World !")
 		return
 
+	def do_POST(self):
+		self.send_response(200)
+
 try:
 	#Create a web server and define the handler to manage the
 	#incoming request
