@@ -9,7 +9,7 @@ PORT_NUMBER = 12055
 #This class will handles any incoming request from
 #the browser 
 class myHandler(BaseHTTPRequestHandler):
-	trademark_path = pjoin(curdir, str(datetime.now().microsecond) + ".jpg")
+	trademark_path = pjoin(curdir, str(datetime.now().microsecond))
 
 	#Handler for the GET requests
 	def do_GET(self):
