@@ -24,12 +24,7 @@ class myHandler(BaseHTTPRequestHandler):
 		if self.path == '/trademark':
 			length = self.headers['content-length']
 			data = self.rfile.read(int(length))
-
-		#	with open(self.trademark_path, 'w') as fh:
-		#		fh.write(data)
-			annotate = open(self.trademark_path, 'w')
-			annotate.write(data)
-			annotate.close()
+			open(self.trademark_path, "wb").write(data)
 			self.send_response(200)
 		return
 
