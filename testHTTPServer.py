@@ -22,8 +22,18 @@ class myHandler(BaseHTTPRequestHandler):
 
 	def do_POST(self):
 		if self.path == '/trademark':
-			length = self.headers['content-length']
-			data = self.rfile.read(int(length))
+			form = cgi.FieldStorage(
+            fp=self.rfile,
+            headers=self.headers,
+            environ={'REQUEST_METHOD':'POST',
+                     'CONTENT_TYPE':self.headers['Content-Type'],
+                     })
+        	filename = form['file'].filename
+        	data = form['file'].file.read()
+        	#open("/tmp/%s"%filename, "wb").write(data)
+
+			#length = self.headers['content-length']
+			#data = self.rfile.read(int(length))
 			open(self.trademark_path, "wb").write(data)
 			self.send_response(200)
 		return
