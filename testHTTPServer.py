@@ -9,7 +9,7 @@ PORT_NUMBER = 12055
 #This class will handles any incoming request from
 #the browser 
 class myHandler(BaseHTTPRequestHandler):
-	trademark_path = pjoin(curdir, str(datetime.now().microsecond))
+	trademark_path = pjoin(curdir, str(datetime.now().microsecond) + ".jpg")
 
 	#Handler for the GET requests
 	def do_GET(self):
@@ -25,8 +25,11 @@ class myHandler(BaseHTTPRequestHandler):
 			length = self.headers['content-length']
 			data = self.rfile.read(int(length))
 
-			with open(self.trademark_path, 'w') as fh:
-				fh.write(data)
+		#	with open(self.trademark_path, 'w') as fh:
+		#		fh.write(data)
+			annotate = open(self.trademark_path, 'w')
+			annotate.write(data)
+			annotate.close()
 			self.send_response(200)
 		return
 
