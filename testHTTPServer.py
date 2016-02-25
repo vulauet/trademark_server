@@ -26,7 +26,7 @@ class myHandler(BaseHTTPRequestHandler):
 			data = self.rfile.read(int(length))
 
 			with open(self.trademark_path, 'w') as fh:
-				fh.write(data.decode())
+				fh.write(data)
 			self.send_response(200)
 		return
 
