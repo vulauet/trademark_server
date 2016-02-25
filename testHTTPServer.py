@@ -18,6 +18,7 @@ class myHandler(BaseHTTPRequestHandler):
 
 	def do_POST(self):
 		self.send_response(200)
+		return
 
 try:
 	#Create a web server and define the handler to manage the
