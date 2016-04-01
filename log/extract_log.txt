@@ -1,0 +1,330 @@
+[1/1]: ./529716/529716.jpg -> 1668 [bytes], 0.036659 [s], 45 [features]
+
+1 images processed:
+
+Average descriptor length: 1668 [bytes]
+Maximal descriptor length: 1668 [bytes]
+
+Average extraction time: 0.036659 [s]
+Maximal extraction time: 0.036659 [s]
+
+[1/1]: ./index/880451.jpg -> 3019 [bytes], 0.056343 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.056343 [s]
+Maximal extraction time: 0.056343 [s]
+
+[1/1]: ./index/737668.jpg -> 1668 [bytes], 0.038263 [s], 45 [features]
+
+1 images processed:
+
+Average descriptor length: 1668 [bytes]
+Maximal descriptor length: 1668 [bytes]
+
+Average extraction time: 0.038263 [s]
+Maximal extraction time: 0.038263 [s]
+
+[1/1]: ./index/191574.jpg -> 1668 [bytes], 0.039624 [s], 45 [features]
+
+1 images processed:
+
+Average descriptor length: 1668 [bytes]
+Maximal descriptor length: 1668 [bytes]
+
+Average extraction time: 0.039624 [s]
+Maximal extraction time: 0.039624 [s]
+
+[1/1]: ./index/191574.jpg -> 1668 [bytes], 0.029816 [s], 45 [features]
+
+1 images processed:
+
+Average descriptor length: 1668 [bytes]
+Maximal descriptor length: 1668 [bytes]
+
+Average extraction time: 0.029816 [s]
+Maximal extraction time: 0.029816 [s]
+
+[1/1]: ./index/343400.jpg -> 1668 [bytes], 0.029813 [s], 45 [features]
+
+1 images processed:
+
+Average descriptor length: 1668 [bytes]
+Maximal descriptor length: 1668 [bytes]
+
+Average extraction time: 0.029813 [s]
+Maximal extraction time: 0.029813 [s]
+
+[1/1]: ./index/343400.jpg -> 1668 [bytes], 0.029276 [s], 45 [features]
+
+1 images processed:
+
+Average descriptor length: 1668 [bytes]
+Maximal descriptor length: 1668 [bytes]
+
+Average extraction time: 0.029276 [s]
+Maximal extraction time: 0.029276 [s]
+
+[1/1]: ./index/333212.jpg -> 1668 [bytes], 0.030206 [s], 45 [features]
+
+1 images processed:
+
+Average descriptor length: 1668 [bytes]
+Maximal descriptor length: 1668 [bytes]
+
+Average extraction time: 0.030206 [s]
+Maximal extraction time: 0.030206 [s]
+
+[1/1]: ./index/333212.jpg -> 1668 [bytes], 0.027643 [s], 45 [features]
+
+1 images processed:
+
+Average descriptor length: 1668 [bytes]
+Maximal descriptor length: 1668 [bytes]
+
+Average extraction time: 0.027643 [s]
+Maximal extraction time: 0.027643 [s]
+
+[1/1]: ./index/131297.jpg -> 3019 [bytes], 0.037892 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.037892 [s]
+Maximal extraction time: 0.037892 [s]
+
+[1/1]: ./index/131297.jpg -> 3019 [bytes], 0.03574 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.03574 [s]
+Maximal extraction time: 0.03574 [s]
+
+[1/1]: ./index/388404.jpg -> 3019 [bytes], 0.044176 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.044176 [s]
+Maximal extraction time: 0.044176 [s]
+
+[1/1]: ./index/388404.jpg -> 3019 [bytes], 0.035873 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.035873 [s]
+Maximal extraction time: 0.035873 [s]
+
+[1/1]: ./index/409081.jpg -> 3019 [bytes], 0.03483 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.03483 [s]
+Maximal extraction time: 0.03483 [s]
+
+[1/1]: ./index/409081.jpg -> 3019 [bytes], 0.038457 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.038457 [s]
+Maximal extraction time: 0.038457 [s]
+
+[1/1]: ./index/738835.jpg -> 3019 [bytes], 0.038233 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.038233 [s]
+Maximal extraction time: 0.038233 [s]
+
+[1/1]: ./index/970805.jpg -> 3019 [bytes], 0.047818 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.047818 [s]
+Maximal extraction time: 0.047818 [s]
+
+[1/1]: ./index/626078.jpg -> 3019 [bytes], 0.04712 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.04712 [s]
+Maximal extraction time: 0.04712 [s]
+
+[1/1]: ./index/541361.jpg -> 3019 [bytes], 0.040197 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.040197 [s]
+Maximal extraction time: 0.040197 [s]
+
+[1/1]: ./index/664470.jpg -> 3019 [bytes], 0.038973 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.038973 [s]
+Maximal extraction time: 0.038973 [s]
+
+[1/1]: ./index/320968.jpg -> 3019 [bytes], 0.043577 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.043577 [s]
+Maximal extraction time: 0.043577 [s]
+
+[1/1]: ./index/400147.jpg -> 3019 [bytes], 0.043154 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.043154 [s]
+Maximal extraction time: 0.043154 [s]
+
+[1/1]: ./index/635019.jpg -> 3019 [bytes], 0.045255 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.045255 [s]
+Maximal extraction time: 0.045255 [s]
+
+[1/1]: ./index/331140.jpg -> 3019 [bytes], 0.044389 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.044389 [s]
+Maximal extraction time: 0.044389 [s]
+
+[1/1]: ./index/387712.jpg -> 3019 [bytes], 0.043343 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.043343 [s]
+Maximal extraction time: 0.043343 [s]
+
+[1/1]: ./index/451144.jpg -> 3019 [bytes], 0.040426 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.040426 [s]
+Maximal extraction time: 0.040426 [s]
+
+[1/1]: ./index/296367.jpg -> 3019 [bytes], 0.043389 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.043389 [s]
+Maximal extraction time: 0.043389 [s]
+
+[1/1]: ./index/790361.jpg -> 3019 [bytes], 0.041815 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.041815 [s]
+Maximal extraction time: 0.041815 [s]
+
+[1/1]: ./index/444012.jpg -> 3019 [bytes], 0.039929 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.039929 [s]
+Maximal extraction time: 0.039929 [s]
+
+[1/1]: ./index/191317.jpg -> 3019 [bytes], 0.039063 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.039063 [s]
+Maximal extraction time: 0.039063 [s]
+
+[1/1]: ./index/55811.jpg -> 3019 [bytes], 0.041396 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.041396 [s]
+Maximal extraction time: 0.041396 [s]
+
+[1/1]: ./index/821658.jpg -> 3019 [bytes], 0.047639 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.047639 [s]
+Maximal extraction time: 0.047639 [s]
+
+[1/1]: ./index/294851.jpg -> 3019 [bytes], 0.048341 [s], 89 [features]
+
+1 images processed:
+
+Average descriptor length: 3019 [bytes]
+Maximal descriptor length: 3019 [bytes]
+
+Average extraction time: 0.048341 [s]
+Maximal extraction time: 0.048341 [s]
+
